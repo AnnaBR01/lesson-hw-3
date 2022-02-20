@@ -1,0 +1,69 @@
+@font-face {
+  font-family: "Larsseit";
+  src: local("../fonts/Larsseit Regular"), local("Larsseit-Regular"),
+    url("../fonts/Larsseit.woff2") format("woff2"),
+    url("../fonts/Larsseit.woff") format("woff"),
+    url("../fonts/Larsseit.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Larsseit";
+  src: local("../fonts/Larsseit Light"), local("Larsseit-Light"),
+    url("../fonts/Larsseit-Light.woff2") format("woff2"),
+    url("../fonts/Larsseit-Light.woff") format("woff"),
+    url("../fonts/Larsseit-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  background: #62d0df;
+  font-size: 0;
+  margin: 0 auto;
+}
+
+.topic {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.topic-text {
+  width: calc(100% - 525px);
+  padding: 150px 181px 95px 78px;
+  color: white;
+}
+.topic-image {
+  width: 525px;
+  border: none;
+}
+
+h2 {
+  font-size: 36px;
+  font-family: "Larsseit";
+  margin-bottom: 75px;
+}
+
+h3 {
+  font-size: 24px;
+  font-family: "Larsseit";
+}
+
+p {
+  font-size: 16px;
+  font-family: "Larsseit";
+  font-weight: 300;
+}
+
+td {
+  width: 525px;
+  height: 604px;
+  background-image: url(../img/women.png);
+}
