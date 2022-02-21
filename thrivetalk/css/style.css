@@ -43,6 +43,9 @@
 .topic-image {
   width: 525px;
   border: none;
+  width: 525px;
+  height: 604px;
+  background-image: url(../img/women.png);
 }
 
 h2 {
@@ -54,16 +57,12 @@ h2 {
 h3 {
   font-size: 24px;
   font-family: "Larsseit";
+  display: inline;
 }
 
 p {
   font-size: 16px;
   font-family: "Larsseit";
   font-weight: 300;
-}
-
-td {
-  width: 525px;
-  height: 604px;
-  background-image: url(../img/women.png);
+  display: inline;
 }
