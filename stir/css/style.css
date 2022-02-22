@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.picture {
+  padding: 60px 41px;
+  background: #191919;
+  font-size: 0;
+  width: 1440px;
+}
+
+.picture__dogs,
+.picture__flower,
+.picture__man {
+  display: inline-block;
+  outline: 2px solid #ffffff;
+  outline-offset: -25px;
+}
+
+.picture__dogs {
+  width: 410px;
+  height: 560px;
+  background-image: url(../img/dogs.png);
+}
+
+.picture__flower {
+  width: 410px;
+  height: 560px;
+  background-image: url(../img/flower.png);
+  margin-right: 63px;
+  margin-left: 65px;
+}
+
+.picture__man {
+  width: 410px;
+  height: 560px;
+  background-image: url(../img/man.png);
+}
+
+.picture__text {
+  font-family: Roboto;
+  font-size: 64px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 560px;
+}

@@ -43,12 +43,10 @@
 .table__tab:nth-child(1) {
   width: 201px;
   border: 1px solid #c6cbcd;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: none;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  background: #e5e5e5;
 }
-/*кажется, я в header все максимально усложнила, как убрать белую линю идей нет*/
 
 .table__tab:nth-child(3) {
   width: calc(100% - 385px);
@@ -65,7 +63,6 @@
   display: inline-block;
   vertical-align: middle;
   height: 500px;
-  background: #e5e5e5;
 }
 
 .topic-text {
