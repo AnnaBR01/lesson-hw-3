@@ -1,0 +1,107 @@
+@font-face {
+  font-family: "Larsseit";
+  src: local("../fonts/Larsseit Regular"), local("Larsseit-Regular"),
+    url("../fonts/Larsseit.woff2") format("woff2"),
+    url("../fonts/Larsseit.woff") format("woff"),
+    url("../fonts/Larsseit.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Larsseit";
+  src: local("../fonts/Larsseit Light"), local("Larsseit-Light"),
+    url("../fonts/Larsseit-Light.woff2") format("woff2"),
+    url("../fonts/Larsseit-Light.woff") format("woff"),
+    url("../fonts/Larsseit-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  padding: 98px 170px 0;
+  font-size: 0;
+}
+
+.table__tab {
+  height: 41px;
+  display: inline-block;
+  text-align: center;
+  border-bottom: 1px solid #c6cbcd;
+  padding-top: 10px;
+  font-size: 14px;
+  width: 184px;
+  font-family: "open sans";
+}
+
+.table__tab:nth-child(1) {
+  width: 201px;
+  border: 1px solid #c6cbcd;
+  border-bottom: none;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.table__tab:nth-child(3) {
+  width: calc(100% - 385px);
+  text-align: left;
+  padding-left: 73px;
+}
+
+.main {
+  font-size: 0;
+  padding: 0 170px 50px;
+}
+
+.topic {
+  display: inline-block;
+  vertical-align: middle;
+  height: 500px;
+}
+
+.topic-text {
+  width: calc(100% - 470px);
+  padding: 0px 30px 54px 100px;
+  border-left: 1px solid #c6cbcd;
+  border-bottom: 1px solid #c6cbcd;
+}
+
+.topic-image {
+  width: 470px;
+  height: 500px;
+  border: none;
+  background-image: url(../img/statue.png);
+}
+
+h2 {
+  width: 570px;
+  height: 124px;
+  font-size: 30px;
+  font-family: "open sans";
+  font-weight: 700;
+  margin-bottom: 27px;
+  line-height: 124px;
+}
+
+p {
+  font-family: Raleway;
+  font-size: 18px;
+  margin-bottom: 27px;
+}
+
+.button {
+  width: 270px;
+  height: 58px;
+  background: #ec7979;
+  color: #ffffff;
+  font-family: "open sans";
+  font-weight: 600;
+  font-size: 18px;
+  border: 3px solid #ff7f50;
+}
